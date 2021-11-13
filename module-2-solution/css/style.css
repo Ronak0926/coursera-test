@@ -5,28 +5,13 @@ h1{
     text-align: center;
 }
 
-/*Paragraph Styles*/
-
-#chickenp{
+div{
     background-color: rgba(153,153,153,255);
-    padding: 20px;
+    /* padding: 20px; */
     margin: 50px;
     width: 500px;
     border: 1px black solid;
-}
-#beefp{
-    background-color: rgba(153,153,153,255);
-    padding: 20px;
-    margin: 50px;
-    width: 500px;
-    border: 1px black solid;
-}
-#suship{
-    background-color: rgba(153,153,153,255);
-    padding: 20px;
-    margin: 50px;
-    width: 500px;
-    border: 1px black solid;
+    position: relative;
 }
 
 /*Header Styles*/
@@ -42,6 +27,9 @@ h1{
     text-align: center;
     font-size: 150%;
     font-weight: bold;
+    position: absolute;
+    top: -50px;
+    right: -50px;
 }
 #beefh{
     background-color: rgba(193,69,67,255);
@@ -55,6 +43,9 @@ h1{
     font-size: 150%;
     font-weight: bold;
     color: white;
+    position: absolute;
+    top: -50px;
+    right: -50px;
 }
 #sushih{
     background-color: rgba(229,209,152,255);
@@ -67,4 +58,13 @@ h1{
     text-align: center;
     font-size: 150%;
     font-weight: bold;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+p{
+    padding: 20px;
+    padding-top: 40px;
+
 }
