@@ -1,0 +1,12 @@
+#ulsubjectlists{
+    text-align: center;
+}
+li:nth-child(odd){
+    color:crimson;
+}
+li:nth-child(even){
+    color:blue;
+}
+#favoriteSubject{
+    font-weight: bold;
+}
