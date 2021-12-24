@@ -26,15 +26,14 @@ h1 {
     width: 500px;
 
 } */
-div {
+.divsyeyea {
     background-color: RGBA(153, 153, 153, 255);
     padding: 20px;
     padding-top: 40px;
     border: 1px black solid;
-    margin: 50px;
+    margin: 10px;
     width: 540px;
     position: relative;
-
 }
 #chickenh {
     background-color: RGBA(213, 152, 152, 255);
@@ -48,8 +47,8 @@ div {
     font-size: 150%;
     font-weight: bold;
     position: absolute;
-    top: -20px;
-    right: 0px;
+    top: -1px;
+    right: -1px;
 }
 #beefh {
     color: white;
@@ -64,8 +63,8 @@ div {
     font-size: 150%;
     font-weight: bold;
     position: absolute;
-    top: -20px;
-    right: 0px;
+    top: -1px;
+    right: -1px;
 }
 #sushih {
     background-color: RGBA(229, 209, 152, 255);
@@ -79,21 +78,25 @@ div {
     font-size: 150%;
     font-weight: bold;
     position: absolute;
-    top: -20px;
-    right: 0px;
+    top: -1px;
+    right: -1px;
 }
 
 @media (min-width: 992px) {
-    #div1, #div2, #div3 {
+    .divsyeyea{
+        float: left;
+        width: 29%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .divsyeyea{
         float: left;
     }
-    #div1 {
-        width: 33.33%;
+    #div1, #div2{
+        width: 50%;
     }
-    #div2 {
-        width: 66.66%;
-    }
-    #div3 {
+    #div3{
         width: 100%;
     }
 }
