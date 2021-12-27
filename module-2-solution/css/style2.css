@@ -28,10 +28,11 @@ h1 {
 } */
 .divset {
     background-color: RGBA(153, 153, 153, 255);
+    box-sizing: border-box;
     padding: 20px;
     padding-top: 40px;
     border: 1px black solid;
-    margin: 10px;
+    margin: 5px;
     width: 540px;
     position: relative;
 }
@@ -85,7 +86,7 @@ h1 {
 @media (min-width: 992px) {
     .divset{
         float: left;
-        width: 29%;
+        width: 32%;
     }
 }
 
@@ -94,9 +95,15 @@ h1 {
         float: left;
     }
     #div1, #div2{
-        width: 50%;
+        width: 48.5%;
     }
     #div3{
-        width: 100%;
+        width: 98%;
+    }
+}
+@media (max-width: 767px) {
+    .divset{
+        float: left;
+        width: 98%;
     }
 }
